@@ -41,7 +41,7 @@ export class Registro{
 //Gurdamos los nuevos elementos actualizados de un registro devolviendo los nuevos valores.
 
     actualizarRegistro( elemento ){
-
+        console.log(this.empleados)
 this.empleados = this.empleados.map(index => {
  
 if(index.id == elemento.id){
@@ -59,7 +59,6 @@ return {
 }else return index;
 
 });
-
 this.guardarLocalStorage();
 
     }
@@ -75,6 +74,7 @@ this.guardarLocalStorage();
         )
 
         this.guardarLocalStorage();
+      
     }
 //*****************************************************/
 

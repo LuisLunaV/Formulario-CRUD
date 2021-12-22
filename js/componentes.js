@@ -87,7 +87,7 @@ eventos.addEventListener('click', (event)=>{
      
       //Eliminamos el registro del DOM
       tBody.removeChild(tr);
-      
+        location.reload();
    }
    else if(event.target.innerText === 'Editar'){
       
