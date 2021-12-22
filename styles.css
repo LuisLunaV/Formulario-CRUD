@@ -34,17 +34,17 @@ thead #accion{
         width: 550px;
     }
     #container-row{
-     justify-content: flex-start;
+     justify-content: center;
     }
     #formulario{
-    width: 60%;
+    width: 50%;
     }
     #disabled{
         display: none;
     }
     .info-empleados{
     overflow: hidden;
-    width: 340px !important;
+    width: 100% !important;
     font-size: .6rem;
 
     }
