@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+.encabezado{
+    text-align: center;
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+#formulario button{
+    align-self: center;
+}
+
+#container-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+thead #accion{
+    text-align: center;
+}
+
+@media (min-width:300px) and (max-width:575px){
+    header{
+        width: 100%;
+    }
+    #container{
+        width: 550px;
+    }
+    #container-row{
+     justify-content: flex-start;
+    }
+    #formulario{
+    width: 60%;
+    }
+    #disabled{
+        display: none;
+    }
+}
