@@ -42,4 +42,10 @@ thead #accion{
     #disabled{
         display: none;
     }
+    .info-empleados{
+    overflow: hidden;
+    width: 340px !important;
+    font-size: .6rem;
+
+    }
 }

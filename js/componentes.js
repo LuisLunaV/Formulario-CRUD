@@ -14,7 +14,7 @@ const html = `<tr>
 
 <td scope="row">${ id }</td>
  <td>${ nombre }</td>
- <td>${ apellido }</td>
+ <td id="disabled">${ apellido }</td>
  <td id="disabled">${ correo }</td>
  <td id="disabled">${ sexo }</td>
 
