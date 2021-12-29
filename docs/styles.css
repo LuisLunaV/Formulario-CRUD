@@ -1,9 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
-
-
 }
+
 .encabezado{
     text-align: center;
 }
@@ -27,8 +26,12 @@ thead #accion{
 }
 
 @media (min-width:300px) and (max-width:575px){
-    header{
+    body{
+        width: 540px !important;
+    }
+    .encabezado{
         width: 100%;
+        text-align:center;
     }
     #container{
         width: 550px;
